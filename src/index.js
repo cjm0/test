@@ -1,6 +1,6 @@
 
 
-import api from './api.js';
+import api from './js/api.js';
 
 api.a()
 

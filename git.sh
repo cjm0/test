@@ -12,10 +12,6 @@ else
 info="fix"
 fi
 
-# 先打包
-npm run build
-
-echo 'build success...'
 
 # 执行 git 命令 -am 后面用双引号
 git add -A

@@ -1,8 +1,16 @@
 {
-  "modules": true,
+  "modules": false,
   "plugins": {
     "autoprefixer": {
-      "grid": true
+      "browsers": ["> 0.5%", "last 2 versions", "ie > 8"]
     }
   }
 }
+
+
+
+
+
+
+
+

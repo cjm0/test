@@ -1,12 +1,13 @@
 {
   "scripts": {
-    "dev": "parcel src/index.html --no-cache",
-    "build": "rm -rf dist && parcel NODE_ENV=production build src/index.html -p 2345 --no-cache --public-url ./"
+    "dev": "rm -rf dist && parcel src/index.html --no-source-maps",
+    "build": "rm -rf dist && parcel NODE_ENV=production build src/index.html -p 2345 --public-url ./ --no-cache --no-source-maps"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "less": "^3.9.0",
     "parcel-bundler": "^1.10.3",
     "postcss-modules": "^1.4.1"
   },
